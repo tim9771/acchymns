@@ -9,18 +9,82 @@ a {
 }
 
 h1 {
-    margin: 55px 20px 20px 30px;
+    margin: 55px 10px 20px 30px;
 }
 
-h2 {
-    margin: 30px 20px 20px 30px;
+.topicalindexheading {
+    margin: 30px 20px 0px 30px;
     font-size: 20px;
 }
 
-.search {
-    margin: 15px 20px 15px 20px;
+h2 {
+    margin: 0px 20px 20px 30px;
+    font-size: 20px;
 }
 
+form {
+    background-color: #ebebeb;
+    height: 40px;
+    border-radius: 15px;
+    margin: 15px 20px 15px 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  button {
+    all: unset;
+    cursor: pointer;
+    width: 44px;
+    height: 44px;
+  }
+  
+  svg {
+    color: rgb(122, 122, 122);
+    fill: currentColor;
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+  }
+
+input {
+  all: unset;
+  font: 16px;
+  color: #000;
+  height: 100%;
+  width: 100%;
+  padding: 6px 15px;
+}
+
+::placeholder {
+    color: #000;
+    opacity: 0.7;
+    font-family: 'Lato', sans-serif;
+  }
+
+.topicalindex {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    overflow: auto;
+  
+}
+
+.topicalindexbutton {
+    height: 70px;
+    min-width: 70px;
+    padding: 10px;
+    text-align: center;
+    color: #000;
+    border-radius: 15px;
+    margin-right: 10px;
+    background-color: white;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    line-height: 1.7;
+}
 
 .book-zionsharp {
     background: rgb(0,0,0);
@@ -28,6 +92,9 @@ h2 {
     margin: 15px 20px 15px 20px;
     padding: 15px 20px;
     border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .book-gospelhymns {
@@ -36,6 +103,9 @@ h2 {
     margin: 15px 20px 15px 20px;
     padding: 15px 20px;
     border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .book-higherground {
@@ -44,6 +114,9 @@ h2 {
     margin: 15px 20px 15px 20px;
     padding: 15px 20px;
     border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .book-juniorhymnal {
@@ -52,6 +125,9 @@ h2 {
     margin: 15px 20px 15px 20px;
     padding: 15px 20px;
     border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .book__title {
@@ -65,6 +141,12 @@ h2 {
     color: #ffffff;
     font-size: 18px;
     line-height: 1.5;
+}
+
+.song__number {
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 900;
 }
 
 .nav {
